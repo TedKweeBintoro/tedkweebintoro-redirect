@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Redirecting to tedkweebinto.ro</title>
+<script>
+(function () {
+  var target = "https://tedkweebinto.ro" + location.pathname + location.search + location.hash;
+  var esc = target.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;");
+  document.write('<link rel="canonical" href="' + esc + '">');
+  document.write('<meta http-equiv="refresh" content="0; url=' + esc + '">');
+  location.replace(target);
+})();
+</script>
+<noscript>
+<link rel="canonical" href="https://tedkweebinto.ro/">
+<meta http-equiv="refresh" content="0; url=https://tedkweebinto.ro/">
+</noscript>
+</head>
+<body>
+<p>Redirecting to <a href="https://tedkweebinto.ro/">tedkweebinto.ro</a></p>
+<script>
+var a = document.querySelector("a");
+if (a) a.href = "https://tedkweebinto.ro" + location.pathname + location.search + location.hash;
+</script>
+</body>
+</html>
